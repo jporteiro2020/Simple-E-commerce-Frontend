@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/comun.css">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="./CSS/tienda.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <title>Inicio</title>
+</head>
+<body class="page">
+    <header>
+        <img src="./Recursos/LOGO.png" alt="Logo" class="logo">
+        <nav>
+			<ul class="ul-nav">
+				<li><a href=""><i class="fas fa-align-justify"></i> <span id="nombreNav">Productos</span></a>
+					<ul>
+						<li><a href="">PC Escritorio</a></li>
+						<li><a href="">Notebooks</a></li>
+						<li><a href="">Componentes</a></li>
+						<li><a href="">Consolas <i class="fas fa-angle-right"></i></a>
+							<ul>
+								<li><a href="">Play Station</a></li>
+								<li><a href="">XBOX</a></li>
+								<li><a href="">Nintendo</a></li>
+								<li><a href="">Retro</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+        <form action="" method="" class="estilo-busqueda busqueda">		    
+            <input type="search" placeholder="Buscar..." id="buscador">		    	
+            <span id="btnBuscador"><i class="fas fa-search"></i></span>
+        </form>
+        <div class="contacto">
+            <p class="contacto-p">Contacto</p>
+            <i class="fab fa-whatsapp wpp-icon-grid"></i><p class="wpp-p-grid">094850906</p>
+        </div>
+        <div class="carrito"><p class="precio">0,00</p><i class="fas fa-shopping-cart cart icono"></i></div>
+    </header>
+    <main id="main">
+        <article id="article-index" class="article-grid">
+            <div class="info-bienvenida">
+                <h1>¡Bienvenido a IT's Possible!</h1>
+                <p>Esta empresa se dedica a la venta de Hardware y Software, en esta tienda encontrarás una gran variedad de productos 
+                a su disposición.</p>
+            </div>
+            <div class="horario">
+                <p>Nuestro horario de atención es:</p>
+                <ul>
+                    <li>De Lunes a Viernes de 9:00 a 13 y 14 a 19 hrs</li>
+                    <li>Los Sábados de  9 a 14hrs</li>
+                </ul>
+            </div>
+            <div class="ubicacion">
+                <p>Nos puedes encontrar en nuestras dos sucursales:</p>
+                <ul>
+                    <li>Dirección: Juan Paullier 2378 entre Amézaga y Domingo Aramburú - Mapa: <button class="custom-btn btn-16" onclick="location.href='./mapa1.html'"><i class="fas fa-map-marked-alt"></i></button></li>
+                    <li>Dirección: Demóstenes 3532 - Mapa: <button class="custom-btn btn-16" onclick="location.href='./mapa2.html'"><i class="fas fa-map-marked-alt"></i></button></li>
+                </ul>
+            </div>
+            <div class="divBotones">
+                <button class="custom-btn btn-2 boton1" onclick="location.href='./tienda.html'">Ir a la tienda</button>
+                <button class="custom-btn btn-2 boton2">Iniciar Sesión</button>
+                <button class="custom-btn btn-2 boton3">Registrarme</button>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <form action="" class="subscripcion">
+            <H2 class="titulo-suscripcion">Subscribirse</H2>
+            <input type="text" name="" id="" placeholder="Nombre" class="nombre-suscripcion">
+            <input type="text" name="" id="" placeholder="E-mail" class="email-suscripcion">
+            <button type="submit" class="custom-btn btn-3"><span>Recibir Ofertas</span></button>
+        </form>
+        <div class="direccion-footer">
+            <p>Nos puedes encontrar en nuestras dos sucursales:</p>
+            <ul>
+                <li>Dirección: Juan Paullier 2378 entre Amézaga y Domingo Aramburú - Mapa: <button class="custom-btn btn-16" onclick="location.href='./mapa1.html'"><i class="fas fa-map-marked-alt"></i></button></li>
+                <li>Dirección: Demóstenes 3532 - Mapa: <button class="custom-btn btn-16" onclick="location.href='./mapa2.html'"><i class="fas fa-map-marked-alt"></i></button></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="./JS/producto.js"></script>
+    <script src="./JS/buscador.js"></script>
+</body>
+</html>

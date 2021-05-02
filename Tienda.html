@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/comun.css">
+    <link rel="stylesheet" href="./CSS/tienda.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <title>Tienda</title>
+</head>
+<body class="page">
+    <header>
+        <img src="./Recursos/LOGO.png" alt="Logo" class="logo">
+        <nav>
+			<ul class="ul-nav">
+				<li><a href=""><i class="fas fa-align-justify"></i> <span id="nombreNav">Productos</span></a>
+					<ul>
+						<li><a href="">PC Escritorio</a></li>
+						<li><a href="">Notebooks</a></li>
+						<li><a href="">Componentes</a></li>
+						<li><a href="">Consolas <i class="fas fa-angle-right"></i></a>
+							<ul>
+								<li><a href="">Play Station</a></li>
+								<li><a href="">XBOX</a></li>
+								<li><a href="">Nintendo</a></li>
+								<li><a href="">Retro</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+        <form action="" method="" class="estilo-busqueda busqueda">		    
+            <input type="search" id="buscador" placeholder="Buscar..." id="buscador">		    	
+            <span id="btnBuscador"><i class="fas fa-search"></i></span>
+        </form>
+        <div class="contacto">
+            <p class="contacto-p">Contacto</p>
+            <i class="fab fa-whatsapp wpp-icon-grid"></i><p class="wpp-p-grid">094850906</p>
+        </div>
+        <div class="carrito"><p class="precio">0,00</p><i class="fas fa-shopping-cart cart icono"></i></div>
+    </header>
+    <main id="main">
+        <section class="destacado" id="destacados">
+            <h2>Destacados</h2>
+            <div id="divDestacado" class="media-q">
+            </div>
+        </section>
+        <section class="PC-Escritorio" id="PC-Escritorio">
+            <h2>PC Escritorio</h2>
+            <div id="divEscritorio" class="media-q">
+
+            </div>
+        </section>
+        <section class="Notebooks" id="Notebooks">
+            <h2>Notebooks</h2>
+            <div id="divNotebook" class="media-q">
+
+            </div>
+        </section>
+        <section class="Consolas" id="Consolas">
+            <h2>Consolas</h2>
+            <div id="divConsolas" class="media-q">
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <form action="" class="subscripcion">
+            <H2 class="titulo-suscripcion">Subscribirse</H2>
+            <input type="text" name="" id="" placeholder="Nombre" class="nombre-suscripcion">
+            <input type="text" name="" id="" placeholder="E-mail" class="email-suscripcion">
+            <button type="submit" class="custom-btn btn-3"><span>Recibir Ofertas</span></button>
+        </form>
+        <div class="direccion-footer">
+            <p>Nos puedes encontrar en nuestras dos sucursales:</p>
+            <ul>
+                <li>Dirección: Juan Paullier 2378 entre Amézaga y Domingo Aramburú - Mapa: <button class="custom-btn btn-16" onclick="location.href='./mapa1.html'"><i class="fas fa-map-marked-alt"></i></button></li>
+                <li>Dirección: Demóstenes 3532 - Mapa: <button class="custom-btn btn-16" onclick="location.href='./mapa2.html'"><i class="fas fa-map-marked-alt"></i></button></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="./JS/producto.js"></script>
+    <script src="./JS/productoFunc.js"></script>
+    <script src="./JS/buscador.js"></script>
+</body>
+</html>
