@@ -227,6 +227,7 @@ footer{
 
 .ul-nav li:hover > ul {
     display:block;
+    z-index: 2;
 }
 
 .ul-nav li ul li {

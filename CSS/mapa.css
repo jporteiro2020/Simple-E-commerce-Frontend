@@ -7,6 +7,7 @@
 #mapid {
     height: 75vh;
     width: 50vw;
+    z-index: 1;
 }
 
 /* Div contenedor del horario de la sucursal */
